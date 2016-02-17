@@ -1,3 +1,4 @@
+/*@import url('reset.css');*/
 body{
 	background:#000;
 	color:#000;
@@ -197,7 +198,7 @@ a.home_close{
 	width:500px;
 	left:20px;
 	z-index:9;
-	cursor:url(../images/cursor_full.cur),  ne-resize;
+	cursor:url(../img/cursor_full.cur),  ne-resize;
 }
 .home_heading,
 .home_desc{
@@ -205,7 +206,7 @@ a.home_close{
 	height:250px;
 	width:500px;
 	text-shadow:1px 1px 1px #000;
-	background:transparent url(../images/bg_black.png) repeat top left;
+	background:transparent url(../img/bg_black.png) repeat top left;
 	-moz-border-radius:0px 100px 0px 100px;
 	border-radius:0px 100px 0px 100px;
 }

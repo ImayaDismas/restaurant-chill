@@ -136,7 +136,7 @@ $(function() {
 				fadeBG					= function(dir) {
 					return $.Deferred(
 						function(dfd) {
-							(dir) ? $home_background.fadeIn(1000, dfd.resolve) : $home_background.fadeOut(1500, dfd.resolve);
+							(dir) ? $home_background.fadeIn(1000, dfd.resolve) : $home_background.fadeOut(15000, dfd.resolve);
 						}
 					).promise();
 				},
@@ -471,7 +471,7 @@ $(function() {
 				},
 				hidePageContent			= function() {
 					$home_pages.hide();
-					BGSlider.stop();
+					// BGSlider.stop();
 				},
 				initPhotoSlider			= function(position) {
 					//initialize the photos slider
