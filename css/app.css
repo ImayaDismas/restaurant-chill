@@ -113,3 +113,121 @@ h1.title span{
 	font-family: 'Raleway',sans-serif;
 	color:#fff;
 }
+.home_content_text ul{
+	margin: 20px 0px 0px 24px;
+}
+.home_content_text ul li{
+	float:left;
+}
+.home_content_text ul li a{
+	display:block;
+	margin:4px;
+}
+.home_content_text ul li a img{
+	display:block;
+	-moz-box-shadow:1px 1px 4px #000;
+	-webkit-box-shadow:1px 1px 4px #000;
+	box-shadow:1px 1px 4px #000;
+	opacity:0.7;
+	-webkit-transition: all 0.5s ease-in-out;
+	-moz-transition: all 0.5s ease-in-out;
+	-o-transition: all 0.5s ease-in-out;
+	-transition: all 0.5s ease-in-out;
+}
+.home_content_text ul li a:hover img{
+	opacity:1.0;
+}
+.home_gallery{
+	display:none;
+}
+.home_nav a{
+	width:72px;
+	height:140px;
+	position:fixed;
+	top:50%;
+	margin-top:-70px;
+	cursor:pointer;
+	opacity:0.3;
+	z-index:999;
+}
+a.home_close{
+	top:10px;
+	right:10px;
+	background:transparent url(../img/close.png) no-repeat center center;
+	position:fixed;
+	width:40px;
+	height:40px;
+	cursor:pointer;
+	opacity:0.3;
+	z-index:999;
+}
+.home_nav a:hover, a.home_close:hover{
+	opacity:0.9;
+}
+.home_nav a.home_next{
+	background:transparent url(../img/next.png) no-repeat center center;
+	right:-72px;
+}
+.home_nav a.home_prev{
+	background:transparent url(../img/prev.png) no-repeat center center;
+	left:-72px;
+}
+.home_gallery_wrapper{
+	top:50%;
+	left:50%;
+	position: fixed;
+	width: 500px;
+	height: 250px;
+	margin: -125px 0px 0px -260px;
+	color:#fff;
+}
+.home_gallery_item{
+	position:absolute;
+	display:none;
+	height:440px;
+	width:560px;
+	top:-95px;
+	left:-20px; /*480px to slide from right, -520px to slide from right*/
+	display:none;
+}
+.home_gallery_item img{
+	position:absolute;
+	top:95px;
+	height:250px;
+	width:500px;
+	left:20px;
+	z-index:9;
+	cursor:url(../images/cursor_full.cur),  ne-resize;
+}
+.home_heading,
+.home_desc{
+	position:absolute;
+	height:250px;
+	width:500px;
+	text-shadow:1px 1px 1px #000;
+	background:transparent url(../images/bg_black.png) repeat top left;
+	-moz-border-radius:0px 100px 0px 100px;
+	border-radius:0px 100px 0px 100px;
+}
+.home_heading{
+	top:95px;/*top:0px;*/
+	left:20px /*left:0px;*/
+}
+.home_heading h2{
+	position:absolute;
+	top:20px;
+	left:20px;
+	font-size:56px;
+	line-height:66px;
+}
+.home_desc{
+	bottom:95px; /*bottom:0px;*/
+	right:40px /*right:0px;*/
+}
+.home_desc p{
+	position:absolute;
+	bottom:20px;
+	right:20px;
+	font-size:30px;
+	line-height:66px;
+}
