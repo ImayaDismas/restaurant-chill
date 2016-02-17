@@ -231,3 +231,34 @@ a.home_close{
 	font-size:30px;
 	line-height:66px;
 }
+/* Footer Style */
+.home_footer{
+	position:fixed;
+	bottom:0px;
+	left:0px;
+	width:100%;
+	font-size:13px;
+	background:#000;
+	opacity:0.9;
+	height:20px;
+	padding-bottom:5px;
+	text-transform:uppercase;
+	z-index:4;
+	font-family: 'Raleway', sans-serif;
+}
+.home_footer a{
+	padding:5px 10px;
+	letter-spacing:1px;
+	text-shadow:1px 1px 1px #000;
+	color:#ddd;
+	float:right;
+}
+.home_footer a:hover{
+	color:#fff;
+}
+.home_footer a span{
+	font-weight:bold;
+}
+.home_footer a.home_left{
+	float:left;
+}
