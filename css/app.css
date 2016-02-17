@@ -25,3 +25,66 @@ a{
 	background:transparent url(../img/bg_black.png) repeat top left;
 	opacity:0.5;
 }
+.home_menu{
+	background:transparent url(../img/pattern.png) repeat top left;
+	width:300px;
+	left:0px;
+	top:0px;
+	height:100%;
+	position:fixed;
+}
+h1.title{
+	color:#fff;
+	font-size:80px;
+	padding:0px 0px 20px 20px;
+	background:#000;
+}
+h1.title span{
+	display:block;
+	font-size:24px;
+	margin:-10px 0px 0px 100px;
+}
+.home_menu ul{
+	display:block;
+	margin-top:50px;
+    margin-left: 0;
+}
+.home_menu ul li{
+	display:block;
+}
+.home_menu ul li a{
+	color:#fff;
+	font-size:30px;
+	text-shadow:0px 0px 1px #fff;
+	line-height:50px;
+	padding:0px 20px 0px 30px;
+	display:block;
+	position:relative;
+	margin:5px 0px;
+	-webkit-transition: all 0.3s ease-in-out;
+	-moz-transition: all 0.3s ease-in-out;
+	-o-transition: all 0.3s ease-in-out;
+	-transition: all 0.3s ease-in-out;
+}
+.home_menu ul li a span.home_hover{
+	background:transparent url(../img/bg_black.png) repeat top left;
+	opacity:0.1;
+	position:absolute;
+	width:0px;
+	height:0px;
+	top:50%;
+	left:0px;
+	-webkit-transition: all 0.3s ease-in-out;
+	-moz-transition: all 0.3s ease-in-out;
+	-o-transition: all 0.3s ease-in-out;
+	-transition: all 0.3s ease-in-out;
+}
+.home_menu ul li a:hover span.home_hover{
+	height:100%;
+	width:100%;
+	margin-top:-25px;
+	opacity:1.0;
+}
+.home_menu ul li a span{
+	position:relative;
+}
